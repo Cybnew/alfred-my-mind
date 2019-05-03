@@ -31,7 +31,7 @@ func parseSummaryFile() []Link {
 		links = append(links, link{
 			uid:  matches[0][1],
 			name: matches[0][1],
-			url:  "https://wiki.nikitavoloboev.xyz/" + re1.ReplaceAllString(matches[0][2], `.html`),
+			url:  "https://knowledge.mrupp.dev" + re1.ReplaceAllString(matches[0][2], `.html`),
 		})
 	}
 	return links
